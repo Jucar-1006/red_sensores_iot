@@ -101,11 +101,10 @@ Registra los commits que muestran tu aporte individual.
 
 | Commit | Mensaje | Que demuestra |
 |---|---|---|
-| `[hash corto]` | `feat: agregar búsqueda lineal por timestamp` | Implementación secuencial base para comparar eficiencia |
-| `[hash corto]` | `feat: generar datos sintéticos ordenados` | Creación de casos de prueba sin sobrecargar el archivo `.csv` |
-| `[hash corto]` | `feat: implementar búsqueda binaria y banco de pruebas` | Aplicación de la lógica `O(log n)` y consolidación en único `main` |
-
-*(Reemplaza `[hash corto]` con los identificadores reales de tu repositorio local al hacer push).*
+| `[hash]` | `feat: agregar clase GeneradorDatos` | Creación del módulo para inyectar datos sintéticos masivos al sistema sin saturar el archivo CSV. |
+| `[hash]` | `feat: agregar clase BuscadorLecturas` | Inserción de la estructura base para alojar los algoritmos de búsqueda lineal y binaria. |
+| `[hash]` | `feat: agregar clase BancoDePruebas e integrar a main` | Creación del entorno de experimentación y actualización de IngestaSensores para invocar las pruebas. |
+| `[hash]` | `fix: corregir algoritmos de busqueda y experimentos` | Corrección del uso de .equals(), ajuste del avance de punteros en la búsqueda binaria e implementación final. 
 
 ## 10. Reexplicacion final
 
